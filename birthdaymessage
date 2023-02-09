@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="icon" type="image/png" href="Picture1.png">
+    <title>Birthday Message</title>
+    <style>
+      body {
+        background-image: url('https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvcm00NjdiYXRjaDUtc2NlbmUtdy0wMDItbDBha3pzejYuanBn.jpg?s=Q8ou_oc12RdR0CvRNnFlBeEhs-ezvTRuZV8tLeqT-iw');
+        background-size: cover;
+        text-align: center;
+      }
+       body {
+        <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap" rel="stylesheet">
+    <style>
+
+       } 
+      
+      h1 {
+        font-size: 50px;
+        color: #f83c12;
+        margin-top: 50px;
+        text-shadow: 2px 2px #333;
+      }
+      p {
+        font-size: 20px;
+        color: #333;
+        margin-top: 20px;
+        text-shadow: 2px 2px #fff;
+      }
+      
+      
+    </style>
+  </head>
+  <body>
+    <h1>Happy Birthday Janice!</h1>
+    <p>Greetings From: Emman ♥.</p>
+  </body>
+</html>
+<html>
+  <head>
+    <style>
+      #clock {
+        font-size: 24px;
+        font-weight: bold;
+      }
+    </style>
+    <script>
+      function updateClock() {
+        var date = new Date();
+        var dateString = date.toLocaleDateString();
+        var timeString = date.toLocaleTimeString();
+        document.getElementById("date").innerHTML = dateString;
+        document.getElementById("time").innerHTML = timeString;
+      }
+    </script>
+  </head>
+  <body onload="setInterval(updateClock, 1000)">
+    <p>
+      Date: <span id="date"></span>
+    </p>
+    <p>
+      Time: <span id="time"></span>
+    </p>
+  </body>
+</html>
+
+<html>
+  <head>
+    <style>
+      .message {
+        border: 5px solid #353535;
+        border-radius: 15px;
+        padding: 55px;
+        width: 200px;
+        background-color: lightgray;
+        text-align: center;
+        margin: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="message">
+      <p>You are a true blessing to those around you, always spreading positivity and kindness wherever you go. Your selflessness, your infectious smile, and your unwavering support have been an inspiration to us all...</p>
+      <p>Thinking of you always puts a smile on my face. You brighten up my day with your laughter and kindness. I hope this message finds you well and brings a little extra joy to your day.</p>
+      <p>Happy Birthday Janice!!!</p> 
+    </div>
+  </body>
+</html>
+<html>
+  <body>
+      <style>
+           a {
+        color: #353535;
+        border: 1px solid #353535;
+        padding: 10px 20px;
+        border-radius: 15px;
+        transition: all 0.2s ease-in;
+        cursor: pointer;
+    }
+      </style>
+    
+    
+    <p><a href="main.html">Facebook</a></p>
+  </body>
+</html>
+
